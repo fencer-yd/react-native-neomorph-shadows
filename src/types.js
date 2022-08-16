@@ -1,5 +1,5 @@
-import { ViewPropTypes } from 'react-native';
 import { number, shape, string, node, bool } from 'prop-types';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 export const ShadowARTType = {
   width: number.isRequired,
